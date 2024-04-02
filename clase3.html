@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 3</title>
+  </head>
+  <body>
+    <a href="index.html">Volver</a>
+    <h1>Clase 3</h1>
+    <form>
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario" />
+        <br />
+        <label for="clave">Clave</label>
+        <input type="password" name="clave-usuario" id="clave" placeholder="contraseña" />
+        <br />
+        <input type="submit" value="Enviar" />
+    </form>
+    <h2>Segundo formulario</h2>
+    <form>
+        <input type="text" name="nombre" placeholder="Nombre/s" required /> <br />
+        <input type="text" name="nombre" placeholder="Apellido/s" required/> <br />
+        <input type="text" name="usuario" placeholder="Usuario" required /> <br />
+        <input type="password" name="clave-usuario" placeholder="Contraseña" required />
+        <br />
+        <input type="password" name="clave-usuario2" placeholder="Repetir contraseña" required />
+        <br />
+        <input type="tel" name="telefono" placeholder="Telefono" /> <br />
+        <input type="email" name="email" placeholder="Correo Electronico" />
+        <br />
+        <label for="nacimiento">Fecha de nacimiento</label> <br />
+        <input type="date" name="nacimiento" id="nacimiento" /> <br />
+        <br />
+    
+        <select name="pais">
+            <option disabled selected>Pais de origen</option>
+            <option value="1">Argentina</option>
+            <option value="2">Mexico</option>
+            <option value="3">Venezuela</option>
+            <option value="4">Colombia</option>
+            <option value="5">Australia</option>
+            <option value="6">Peru</option>
+        </select> <br> <br> <br>
+    
+        <label>Sexo</label> <br>
+    
+        <input type="radio" name="sexo" id="femenino" value="1">
+        <label for="femenino">Femenino</label> <br>
+        <input type="radio" name="sexo" id="masculino" value="2">
+        <label for="masculino">Masculino</label> <br>
+        <input type="radio" name="sexo" id="otro" value="3">
+        <label for="otro">Otros</label> <br> <br>
+        <input type="checkbox" name="terminos" required> Acepto los terminos y condiciones
+        <br><br>
+    
+        <input type="submit" value="Registrar" />
+        <input type="reset" value="Cancelar">
+    </form>
+  </body>
+</html>
